@@ -5,3 +5,16 @@ pytorch:
    transformer_big: benchmark/frame_benchmark/pytorch/dynamic/PaddleNLP/models/DeepLearningExamples
    basicvsr: benchmark/frame_benchmark/pytorch/dynamic/PaddleGAN/models/mmediting
    esrgan: benchmark/frame_benchmark/pytorch/dynamic/PaddleGAN/models/mmediting
+   jde: benchmark/frame_benchmark/pytorch/dynamic/PaddleDetection/models/jde
+   fairmot: benchmark/frame_benchmark/pytorch/dynamic/PaddleDetection/models/fairmot
+   higherhrnet: benchmark/frame_benchmark/pytorch/dynamic/PaddleDetection/models/mmpose
+   hrnet: benchmark/frame_benchmark/pytorch/dynamic/PaddleDetection/models/mmpose
+   solov2: benchmark/frame_benchmark/pytorch/dynamic/PaddleDetection/models/SOLO
+   gfl: benchmark/frame_benchmark/pytorch/dynamic/PaddleDetection/models/mmdetection
+   fcos: benchmark/frame_benchmark/pytorch/dynamic/PaddleDetection/models/mmdetection
+   faster_rcnn: benchmark/frame_benchmark/pytorch/dynamic/PaddleDetection/models/mmdetection
+   deformable_detr: benchmark/frame_benchmark/pytorch/dynamic/PaddleDetection/models/mmdetection
+
+paddle:
+   fastscnn: benchmark/frame_benchmark/paddle/dynamic/PaddleSeg/models/PaddleSeg   # 例如新增该行
+   hrnet: benchmark/frame_benchmark/paddle/dynamic/PaddleSeg/models/PaddleSeg
